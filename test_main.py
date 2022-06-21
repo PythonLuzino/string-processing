@@ -7,6 +7,14 @@ import unittest
 import string_processing
 
 
+class TestGetResult(unittest.TestCase):
+    def test_get_current_processing_result(self):
+        string_to_test = string_processing.StringProcessing('To jest tekst testowy.')
+        expected_result = 'To jest tekst testowy.'
+
+        self.assertEqual(string_to_test.get_current_processing_result(), expected_result)
+
+
 class TestTrimString(unittest.TestCase):
     def test_trim_string_left(self):
         string_to_test = string_processing.StringProcessing('    To jest tekst testowy.')
