@@ -40,14 +40,14 @@ class StringProcessing:
         pass
 
     # zadanie nr 4
-    def replace_substring(self):
+    def replace_substring(self, what, to):
         """
         Zastępuje dowolny ciąg znaków wewnątrz przetwarzanego ciągu znaków dowolnym ciągkiem znaków.
 
         :param what: ciąg znaków, który zostanie zastąpiony
         :param to: ciąg znaków, który zastąpi poprzednią sekwencję
         """
-        pass
+        self._string = self._string.replace(what, to)
 
     # zadanie nr 5
     def add_prefix(self):
