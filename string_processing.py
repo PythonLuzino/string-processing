@@ -57,7 +57,7 @@ class StringProcessing:
         :param prefix: przedrostek do dodania
         """
         self._string = self._string.removeprefix(prefix)
-        self._string = self._string + str(prefix)
+        self._string = str(prefix) + self._string
 
 
     #zadanie nr 6
