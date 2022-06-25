@@ -59,13 +59,14 @@ class StringProcessing:
         pass
 
     #zadanie nr 6
-    def add_suffix(self):
+    def add_suffix(self, suffix):
         """
         Dodaje przyrostek na końcu przetwarzanego ciągu znaków, o ile ten przyrostek nie kończy słowa.
 
         :param suffix: przyrostek do dodania
         """
-        pass
+        self._string = self._string.removesuffix()
+        self._string = self._string + str(suffix)
 
 
 if __name__ == '__main__':
