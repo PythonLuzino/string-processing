@@ -50,13 +50,15 @@ class StringProcessing:
         pass
 
     # zadanie nr 5
-    def add_prefix(self):
+    def add_prefix(self, prefix):
         """
         Dodaje przedrostek na początku przetwarzanego ciągu znaków, o ile ten przedrostek nie rozpoczyna słowa.
 
         :param prefix: przedrostek do dodania
         """
-        pass
+        self._string = self._string.removeprefix()
+        self._string = self._string + str(prefix)
+
 
     #zadanie nr 6
     def add_suffix(self):
