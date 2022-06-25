@@ -15,13 +15,13 @@ class StringProcessing:
     """
 
     # zadanie nr 1
-    def __init__(self):
+    def __init__(self, string):
         """
         Inicjuje obiekt przetwarzający ciągi znaków.
 
         :param string: ciąg znaków do przetwarzania
         """
-        pass
+        self._string = string
 
     # zadanie nr 2
     def get_current_processing_result(self):
