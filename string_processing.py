@@ -30,7 +30,7 @@ class StringProcessing:
 
         :return: _string
         """
-        pass
+        return self._string
 
     # zadanie nr 3
     def trim_string(self):
