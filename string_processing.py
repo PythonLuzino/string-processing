@@ -56,7 +56,7 @@ class StringProcessing:
 
         :param prefix: przedrostek do dodania
         """
-        self._string = self._string.removeprefix()
+        self._string = self._string.removeprefix(prefix)
         self._string = self._string + str(prefix)
 
 
@@ -67,7 +67,7 @@ class StringProcessing:
 
         :param suffix: przyrostek do dodania
         """
-        self._string = self._string.removesuffix()
+        self._string = self._string.removesuffix(suffix)
         self._string = self._string + str(suffix)
 
 
