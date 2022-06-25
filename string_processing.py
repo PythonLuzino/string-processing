@@ -37,7 +37,7 @@ class StringProcessing:
         """
         Usuwa tzw. białe znaki z początku i z końca przetwarzanego ciągu znaków.
         """
-        pass
+        self._string = self._string.strip()
 
     # zadanie nr 4
     def replace_substring(self):
